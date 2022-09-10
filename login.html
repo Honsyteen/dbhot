@@ -9,14 +9,12 @@
 </head>
 
 <body>
-    <h1>用户登录</h1>
-    <form method="post" action="/login/">
-        {% csrf_token %}
-        <input type="text" name="user" placeholder="用户名">
-        <input type="password" name="pwd" placeholder="密码">
-        <input type="submit" value="提交">
-        <span style="color: red;">{{error_msg}}</span>
-    </form>
+    <ul>
+        <li>亚洲</li>
+        <li>欧美</li>
+        <li>日韩</li>
+        <li>短视频</li>
+    </ul>
 </body>
 
 </html>
